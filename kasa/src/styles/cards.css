@@ -1,0 +1,15 @@
+.cards {
+    height: 340px;
+    width: 340px;
+    left: 850px;
+    top: 446px;
+    border-radius: 0px;
+}
+
+.cardImg {
+    height: 340px;
+    width: 340px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+}

@@ -1,25 +1,18 @@
-import logo from '../../assets/logo.svg';
-import '../../styles/Home.css';
+import React from "react";
 
-function App() {
+import "../../styles/Home.css";
+import Banniere from "../../components/banner";
+import bannerHome from "../../assets/bannerHome.png";
+
+function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="accueil">
+      <div className="banniere-accueil">
+        <Banniere image={bannerHome} texte="Chez vous, partout et ailleurs" />
+      </div>
+      
     </div>
   );
 }
 
-export default App;
+export default Home;
