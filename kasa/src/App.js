@@ -2,7 +2,7 @@ import './App.css';
 import { HashRouter, Routes, Route, } from "react-router-dom";
 
 import Home from './pages/Home/Home';
-import APropos from "./pages/A-Propos/A-propos";
+import APropos from "./pages/A-Propos/APropos";
 import Layout from './components/layout'
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
                         <Routes>
                             <Route index element={<Home/>}/>
                             <Route path="/Home" element={<Home/>}/>
-                            <Route path="/A-Propos" element={<APropos/>}/>
+                            <Route path="/APropos" element={<APropos/>}/>
                         </Routes>
                     </Layout>
                 </HashRouter>

@@ -10,12 +10,14 @@ footer {
     flex-direction: column;
 }
 
-#footer-container > img {
+#footer-container>img {
     height: 25px;
     margin: auto;
     padding-top: 20px;
 }
 
-#footer-container > p {
+#footer-container>p {
     color: #ffffff;
+    font-weight: 500;
+    font-size: 24px;
 }
