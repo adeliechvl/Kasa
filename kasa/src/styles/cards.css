@@ -1,15 +1,41 @@
-.cards {
-    height: 340px;
+.cards{
     width: 340px;
-    left: 850px;
-    top: 446px;
-    border-radius: 0px;
+    height: 340px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    position: relative;
+    
+}
+.gradients:hover{
+    background: linear-gradient(180deg, #ff6060 5%, #000000a6 90%);
+    opacity: 50%;
 }
 
-.cardImg {
-    height: 340px;
-    width: 340px;
-    left: 0px;
-    top: 0px;
+.gradients {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    bottom: 0;
+    left:0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
     border-radius: 10px;
+}
+
+.card-image {
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.card-titre {
+    color: #ffffff;
+    position: absolute;
+    left: 10px;
+    right: 5px;
+    bottom: 10px;
+    display: flex;
+    text-align: left;
 }

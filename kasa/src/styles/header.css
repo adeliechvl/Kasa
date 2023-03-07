@@ -3,24 +3,22 @@ header {
     display: inline-flex;
     margin: 25px 10px 20px 10px;
     width: 90%;
-}
-
-header>img {
+  }
+  header > img {
     height: 60px;
-}
+  }
 
-nav {
+  nav {
     display: flex;
     justify-content: flex-end;
     width: 100%;
-}
+  }
 
-.lien-menu {
+  .lien-menu {
     color: #ff6060;
     margin: auto 0 auto 40px;
     text-decoration: none;
-}
-
-.lien-menu:hover {
+  }
+  .lien-menu:hover {
     text-decoration: underline;
-}
+  }

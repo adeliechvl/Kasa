@@ -1,9 +1,9 @@
 import './App.css';
 import { HashRouter, Routes, Route, } from "react-router-dom";
 
-import Layout from './components/layout'
-import APropos from "./pages/A-propos/A-propos";
 import Home from './pages/Home/Home';
+import APropos from "./pages/A-Propos/A-propos";
+import Layout from './components/layout'
 
 function App() {
     return (

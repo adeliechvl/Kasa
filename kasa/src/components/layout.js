@@ -1,15 +1,15 @@
 import React from "react";
 
-import "../components/layout.css";
+import "../styles/layout.css";
 import Header from '../components/header.js';
 import Footer from '../components/footer.js';
 
 function Layout({ children }) {
     return (
         <>
-            <Header />
+            <Header/>
             <main>{children}</main>
-            <Footer />
+            <Footer/>
         </>
     )
 }

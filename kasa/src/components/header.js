@@ -9,7 +9,7 @@ function Header() {
     <header>
       <img src={logo} alt="Logo" />
       <nav>
-        <NavLink to="/" className="lien-menu" style={({ isActive }) => isActive ? { textDecoration: "underline" } : { textDecoration: "unset" }}>Accueil</NavLink>
+        <NavLink to="/Home" className="lien-menu" style={({ isActive }) => isActive ? { textDecoration: "underline" } : { textDecoration: "unset" }}>Accueil</NavLink>
         <NavLink to="/APropos" className="lien-menu" style={({ isActive }) => isActive ? { textDecoration: "underline" } : { textDecoration: "unset" }}>À Propos</NavLink>
       </nav>
     </header>

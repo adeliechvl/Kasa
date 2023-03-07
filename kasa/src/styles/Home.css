@@ -3,7 +3,7 @@
 }
 
 .block-logements {
-  background-color: #f6f6f6;
+  background-color: #f7f7f7;
   border-radius: 25px;
   width: 90%;
   display: flex;
@@ -17,7 +17,6 @@
   width: 30%;
   height: 270px;
   border-radius: 10px;
-
 }
 
 .block-logements a:hover {
