@@ -1,0 +1,28 @@
+.page404 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+.titre404 {
+    color: #ff6060;
+    font-size: 288px;
+    font-weight: 700;
+    line-height: 410.69px;
+    margin-bottom: 20px;
+}
+
+.description404 {
+    color: #ff6060;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.lien-accueil{
+    margin: 50px auto 40px auto;
+    color: #ff6060;
+    font-weight: 500;
+    font-size: 18px;
+}
