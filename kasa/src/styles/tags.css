@@ -4,6 +4,16 @@
     color: #ffffff;
     font-size: 14px;
     padding: 5px 20px 5px 20px;
-    margin-right: 10px; 
+    margin-right: 10px;
     margin-bottom: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 769px) {
+
+    .tag {
+        font-size: 10px;
+        border-radius: 5px;
+        width: 84px;
+    }
 }

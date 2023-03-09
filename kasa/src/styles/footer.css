@@ -21,3 +21,17 @@ footer {
     font-weight: 500;
     font-size: 24px;
 }
+
+@media screen and (max-width: 769px) {
+
+    #footer-container>p {
+        margin-bottom: 35px;
+        font-size: 12px;
+    }
+
+    #footer-container>img {
+        height: 39.44px;
+        width: 122px;
+        padding-top: 25px;
+    }
+}

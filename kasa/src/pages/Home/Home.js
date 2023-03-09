@@ -2,7 +2,7 @@ import React from "react";
 
 import "../../styles/Home.css";
 
-import Banniere from "../../components/banner";
+import Banniere from "../../components/bannerHome";
 import Cards from '../../components/cards';
 
 import bannerHome from "../../assets/bannerHome.png";

@@ -20,9 +20,27 @@
     margin-bottom: 30px;
 }
 
-.lien-accueil{
+.lien-accueil {
     margin: 50px auto 40px auto;
     color: #ff6060;
     font-weight: 500;
     font-size: 18px;
+}
+
+@media screen and (max-width: 769px) {
+
+    .titre404 {
+        font-size: 96px;
+        margin: 140px 0 10px 0;
+    }
+
+    .description404 {
+        font-size: 18px;
+        margin-bottom: 85px;
+    }
+
+    .lien-accueil {
+        font-size: 14px;
+        margin-top: 40px;
+    }
 }

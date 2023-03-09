@@ -44,3 +44,30 @@
     font-size: 18px;
     line-height: 34px;
 }
+
+@media screen and (max-width: 769px) {
+
+    .dropdown {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .header-dropdown {
+        height: 30px;
+    }
+
+    .titre-dropdown {
+        font-size: 13px;
+    }
+
+    .description-dropdown {
+        font-size: 12px;
+        line-height: 17px;
+        padding-top: 22px;
+    }
+
+    .fleche-dropdown img {
+        height: 15px;
+        width: 15px;
+    }
+}
