@@ -1,0 +1,87 @@
+.block-logement {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.titre-logement {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ff6060;
+}
+
+.information-logements {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100px;
+    justify-content: space-around;
+    margin: 20px 0 20px 0;
+}
+
+.nom-logement {
+    font-size: 35px;
+}
+
+.lieux {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.information-proprietaire {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-proprietaire {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.nom-proprietaire {
+    margin-right: 10px;
+    text-align: right;
+    width: 100px;
+    font-size: 18px;
+}
+
+.photo-proprietaire {
+    border-radius: 50%;
+    height: 50px;
+    object-fit: cover;
+    width: 50px;
+}
+
+.note {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.etoile {
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+
+}
+
+.description-equipement-logement {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 15px;
+}
+
+.equipement-logement {
+    width: 47%;
+}
+
+.description-logement {
+    width: 47%;
+}
