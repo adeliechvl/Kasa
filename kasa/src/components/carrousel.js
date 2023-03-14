@@ -43,6 +43,11 @@ function Carrousel({ images }) {
                 {
                     tableauImages > 1 && <img className="fleche fleche-droite" src={fleche} alt="Contenu suivant" onClick={imgSuivante} />
                 }
+                {
+                    <span className="carrousel-image-nombre">
+                        {affichageImage + 1}/{images.length}
+                    </span>
+                }
             </div>
         </div>
     );

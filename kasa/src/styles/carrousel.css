@@ -22,12 +22,16 @@
 .fleche-gauche {
     transform: rotate(90deg);
     padding: 10px;
+    width: 46px;
+    height: 79px;
 }
 
 .fleche-droite {
     transform: rotate(270deg);
     padding: 10px;
     right: 5%;
+    width: 46px;
+    height: 79px;
 }
 
 .carrousel-photo {
@@ -43,13 +47,32 @@
     width: 100%;
 }
 
+.carrousel-image-nombre {
+    color: #ffffff;
+    position: absolute;
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    left: 48.95%;
+    right: 49.11%;
+    top: 530px;
+}
+
 @media screen and (max-width: 769px) {
 
-    .carrousel-image {
-        margin-bottom: 10px;
-    }
     .carrousel-photo {
         height: 255px;
         margin-bottom: 15px;
+    }
+
+    .fleche-droite,
+    .fleche-gauche {
+        width: 11px;
+        height: 19px;
+    }
+
+    .carrousel-image-nombre {
+        display: none;
     }
 }
